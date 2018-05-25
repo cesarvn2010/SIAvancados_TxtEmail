@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button color="light" (click)="enviar()">Gerar arquivo texto e enviar email</button>
+  <p>{{erroTela}}</p>
+  <p>Retorno do createFile:{{retorno1}}</p>
+  <p>Retorno do writeFile:{{retorno2}}</p>
+  <p>Retorno do readAsText:{{retorno3}}</p>
+
+  <button ion-button color="light" (click)="enviar2()">Ler e enviar email</button>
+  <p>Retorno do Ler e Enviar:{{retorno4}}</p>
+
+</ion-content>
